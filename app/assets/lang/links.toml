@@ -1,0 +1,11 @@
+[ejs.settings]
+supportLink = "https://github.com/lakiviko/BakatoLauncher/issues"
+sourceGithubLink = "https://github.com/lakiviko/BakatoLauncher"
+
+[ejs.landing]
+websiteURL = "https://bakato.ru"
+telegramURL = "https://t.me/bakatoMcNews"
+discordURL = "https://discord.gg/tDHEEFJPXv"
+vkURL = "https://vk.com/bakatomc"
+youtubeURL = "https://youtube.com/@bakatomc"
+pinterestURL = "https://pinterest.com/bakatoserverMC"

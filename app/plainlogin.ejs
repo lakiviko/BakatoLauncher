@@ -1,0 +1,35 @@
+<div id="plainloginContainer" style="display: none;">
+    <div id="plainloginCancelContainer" style="display: none;">
+        <button id="plainloginCancelButton">
+            <div id="plainloginCancelIcon">X</div>
+            <span id="plainloginCancelText"><%- lang('plainlogin.loginCancelText') %></span>
+        </button>
+    </div>
+    <div id="plainloginContent">
+        <form id="plainloginForm">
+            <img id="plainloginImageSeal" src="assets/images/SealCircle.png"/>
+            <span id="plainloginSubheader"><%- lang('plainlogin.loginSubheader') %></span>
+            <div class="plainloginFieldContainer">
+                <svg id="profileSVG" class="plainloginSVG" viewBox="40 37 65.36 61.43">
+                    <g>
+                        <path d="M86.77,58.12A13.79,13.79,0,1,0,73,71.91,13.79,13.79,0,0,0,86.77,58.12M97,103.67a3.41,3.41,0,0,0,3.39-3.84,27.57,27.57,0,0,0-54.61,0,3.41,3.41,0,0,0,3.39,3.84Z"/>
+                    </g>
+                </svg>
+                <span class="plainloginErrorSpan" id="plainloginUsernameError"><%- lang('plainlogin.loginUsernameError') %></span>
+                <input id="plainloginUsername" class="plainloginField" type="text" placeholder="<%- lang('login.loginEmailPlaceholder') %>"/>
+            </div>
+            <button id="plainloginButton" disabled>
+                <div id="plainloginButtonContent">
+                    <%- lang('plainlogin.loginButtonText') %>
+                    <svg id="plainloginSVG" viewBox="0 0 24.87 13.97">
+                        <defs>
+                            <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                        </defs>
+                        <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                    </svg>
+                </div>
+            </button>
+        </form>
+    </div>
+    <script src="./assets/js/scripts/plainlogin.js"></script>
+</div>
