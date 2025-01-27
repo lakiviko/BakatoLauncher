@@ -352,13 +352,13 @@ document.getElementById('settingsAddMojangAccount').onclick = (e) => {
 }
 
 // Bind the add plain account button.
-// document.getElementById('settingsAddPlainAccount').onclick = (e) => {
-//     switchView(getCurrentView(), VIEWS.plainlogin, 500, 500, () => {
-//         plainloginViewOnCancel = VIEWS.settings
-//         plainloginViewOnSuccess = VIEWS.settings
-//         plainloginCancelEnabled(true)
-//     })
-// }
+document.getElementById('settingsAddPlainAccount').onclick = (e) => {
+    switchView(getCurrentView(), VIEWS.plainlogin, 500, 500, () => {
+        plainloginViewOnCancel = VIEWS.settings
+        plainloginViewOnSuccess = VIEWS.settings
+        plainloginCancelEnabled(true)
+    })
+}
 
 // Bind the add microsoft account button.
 document.getElementById('settingsAddMicrosoftAccount').onclick = (e) => {

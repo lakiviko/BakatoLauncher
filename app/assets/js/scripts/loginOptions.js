@@ -37,13 +37,13 @@ loginOptionMojang.onclick = (e) => {
     })
 }
 
-// loginOptionPlain.onclick = (e) => {
-//     switchView(getCurrentView(), VIEWS.plainlogin, 500, 500, () => {
-//         plainloginViewOnSuccess = loginOptionsViewOnLoginSuccess
-//         plainloginViewOnCancel = loginOptionsViewOnLoginCancel
-//         plainloginCancelEnabled(true)
-//     })
-// }
+loginOptionPlain.onclick = (e) => {
+    switchView(getCurrentView(), VIEWS.plainlogin, 500, 500, () => {
+        plainloginViewOnSuccess = loginOptionsViewOnLoginSuccess
+        plainloginViewOnCancel = loginOptionsViewOnLoginCancel
+        plainloginCancelEnabled(true)
+    })
+}
 
 loginOptionsCancelButton.onclick = (e) => {
     switchView(getCurrentView(), loginOptionsViewOnCancel, 500, 500, () => {

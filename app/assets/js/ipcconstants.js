@@ -1,4 +1,4 @@
-exports.AZURE_CLIENT_ID = '13cf2fbd-e34a-46b4-a00b-44b259b72731'
+exports.AZURE_CLIENT_ID = '045cf136-661d-4d19-b65d-e79718a0ae05'
 
 // Opcodes
 exports.MSFT_OPCODE = {
